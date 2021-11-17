@@ -20,4 +20,5 @@ namespace Notes.Domain
     }
     // Notes.Applications: Здесь будет вся логика запросов получения, создания, редактирования заметок и валидации запросов
     // Notes.Persistence: Здесь будет описание взаимодействия с БД
+    // Added to GitHub
 }
