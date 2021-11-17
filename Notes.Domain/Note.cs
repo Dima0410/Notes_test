@@ -9,10 +9,10 @@ namespace Notes.Domain
     // Здесь будет содержаться описание сущностей заметок, бизнес-логика относящаяся к сущности заметок
     // (Уровень Core => Domain - Interprices logic, относится к общему направлению деятельности компании, очень обобщенная логика)
 
-    class Note
+    public class Note
     {
-        public Guid UserID { get; set; }
-        public Guid ID { get; set; }
+        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
         public string Title { get; set; }
         public string Details { get; set; }
         public DateTime CreationDate { get; set; }
